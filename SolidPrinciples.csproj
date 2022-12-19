@@ -61,6 +61,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dependency Inversion Principle\BadPractice\DependencyInversionViolation.cs" />
+    <Compile Include="Dependency Inversion Principle\GoodPractice\Email.cs" />
+    <Compile Include="Dependency Inversion Principle\GoodPractice\IMessage.cs" />
+    <Compile Include="Dependency Inversion Principle\GoodPractice\Notification.cs" />
+    <Compile Include="Dependency Inversion Principle\GoodPractice\SMS.cs" />
+    <Compile Include="Interface Segregation Principle\BulkyInterface.cs" />
+    <Compile Include="Interface Segregation Principle\SegregatedInterfaces.cs" />
+    <Compile Include="Liskov Substitution Principle\LSPCompliance.cs" />
+    <Compile Include="Liskov Substitution Principle\LSPViolation.cs" />
     <Compile Include="Open Closed Principle\BaseShapes\ParentShape\Shape.cs" />
     <Compile Include="Open Closed Principle\BaseShapes\ThreeDimensionalShape.cs" />
     <Compile Include="Open Closed Principle\BaseShapes\TwoDimensionalShape.cs" />
@@ -93,8 +102,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Liskov Substitution Principle\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,7 +9,7 @@ namespace SolidPrinciples
         static void Main(string[] args)
         {
             /***** Demonstration of Single Responsibility Principle *******/
-            /*
+            
             // First Time
 
             ArithmeticOperations arithmeticOperations = new ArithmeticOperations();
@@ -43,9 +43,7 @@ namespace SolidPrinciples
                 Console.WriteLine("User pressed enter!");
                 return;
             }
-            */
-
-            /***** Demonstration of Single Responsibility Principle *******/
+            
         }
     }
 }
